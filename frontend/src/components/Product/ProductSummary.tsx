@@ -1,5 +1,5 @@
-function ProductSummary() {
-  return <>ProductSummary</>;
-}
+import { NextComponentType } from "next";
 
-export default ProductSummary;
+export const ProductSummary: NextComponentType = () => {
+  return <>ProductSummary</>;
+};

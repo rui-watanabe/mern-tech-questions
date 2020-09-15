@@ -1,5 +1,5 @@
-function AccountPermissions() {
-  return <>AccountPermissions</>;
-}
+import { NextComponentType } from "next";
 
-export default AccountPermissions;
+export const accountPermissions: NextComponentType = () => {
+  return <>AccountPermissions</>;
+};

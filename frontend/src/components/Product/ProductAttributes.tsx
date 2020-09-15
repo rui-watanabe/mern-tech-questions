@@ -1,5 +1,5 @@
-function ProductAttributes() {
-  return <>ProductAttributes</>;
-}
+import { NextComponentType } from "next";
 
-export default ProductAttributes;
+export const ProductAttributes: NextComponentType = () => {
+  return <>ProductAttributes</>;
+};

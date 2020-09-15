@@ -1,5 +1,5 @@
-function AccountHeader() {
-  return <>AccountHeader</>;
-}
+import { NextComponentType } from "next";
 
-export default AccountHeader;
+export const AccountHeader: NextComponentType = () => {
+  return <>AccountHeader</>;
+};

@@ -1,5 +1,5 @@
-function CartItemList() {
-  return <>CartItemList</>;
-}
+import { NextComponentType } from "next";
 
-export default CartItemList;
+export const CartItemList: NextComponentType = () => {
+  return <>CartItemList</>;
+};

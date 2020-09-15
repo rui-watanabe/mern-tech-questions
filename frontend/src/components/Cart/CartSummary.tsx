@@ -1,5 +1,5 @@
-function CartSummary() {
-  return <>CartSummary</>;
-}
+import { NextComponentType } from "next";
 
-export default CartSummary;
+export const CartSummary: NextComponentType = () => {
+  return <>CartSummary</>;
+};

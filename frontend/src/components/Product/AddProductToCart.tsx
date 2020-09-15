@@ -1,5 +1,5 @@
-function AddProductToCart() {
-  return <>AddProductToCart</>;
-}
+import { NextComponentType } from "next";
 
-export default AddProductToCart;
+export const AddProductToCart: NextComponentType = () => {
+  return <>AddProductToCart</>;
+};

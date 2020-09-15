@@ -1,5 +1,5 @@
-function ProductPagination() {
-  return <>ProductPagination</>;
-}
+import { NextComponentType } from "next";
 
-export default ProductPagination;
+export const ProductPagination: NextComponentType = () => {
+  return <>ProductPagination</>;
+};

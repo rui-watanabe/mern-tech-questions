@@ -1,5 +1,5 @@
-function AccountOrders() {
-  return <>AccountOrders</>;
-}
+import { NextComponentType } from "next";
 
-export default AccountOrders;
+export const AccountOrders: NextComponentType = () => {
+  return <>AccountOrders</>;
+};

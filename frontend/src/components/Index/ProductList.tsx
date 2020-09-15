@@ -1,5 +1,5 @@
-function ProductList() {
-  return <>ProductList</>;
-}
+import { NextComponentType } from "next";
 
-export default ProductList;
+export const ProductList: NextComponentType = () => {
+  return <>ProductList</>;
+};
